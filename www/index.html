@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>"IonicProject"</title>
+
+    <!-- build:css styles/vendor.css -->
+    <!-- <link rel="stylesheet" href="vendor/some.contrib.css"> -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/ionic/release/css/ionic.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:css({.tmp,app}) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+
+  <body ng-app="IonicProject" ng-controller="MapCtrl">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Register an account</h1>
+    </ion-header-bar>
+
+    <ion-content scroll="true">
+      <div class="list">
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">First Name</span>
+            <input type="text" placeholder="John">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Last Name</span>
+            <input type="text" placeholder="Suhr">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Email</span>
+            <input type="text" placeholder="john@suhr.com">
+          </label>
+
+          <label class="item item-divider" for="">Which language you want to practice?</label>
+          <label class="item item-radio">
+             <input type="radio" name="groupA">
+              <div class="item-content">German</div>
+              <i class="radio-icon ion-checkmark"></i>
+          </label>
+          <label class="item item-radio">
+             <input type="radio" name="groupA">
+              <div class="item-content">Mandarin</div>
+              <i class="radio-icon ion-checkmark"></i>
+          </label>
+
+          <label class="item item-divider" for="">What is your gender ? </label>
+          <label class="item item-radio">
+             <input type="radio" name="groupB">
+              <div class="item-content">Girl</div>
+              <i class="radio-icon ion-checkmark"></i>
+          </label>
+          <label class="item item-radio">
+             <input type="radio" name="groupB">
+              <div class="item-content">Boy</div>
+              <i class="radio-icon ion-checkmark"></i>
+          </label>
+          <div class="item item-divider"> Your age: <span class="age"> 10 </span></div>
+          <div class="item range range-positive">
+            10
+            <input type="range" name="volume" min="10" max="60" value="33">
+            60
+          </div>
+
+      </div><!-- list -->
+      <div class="padding">
+        <a href="time.html" class="button button-block button-positive activated">Create Account</a>
+      </div>
+    </ion-content>
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- This Google Maps API file was downloaded from: -->
+    <!-- https://maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true -->
+    <!-- Saving it in the vendor/ directory allows it to be bundled as part of the build system. -->
+    <!-- You should replace it with a version downloaded using your API key -->
+    <script src="vendor/google/maps.js"></script>
+    <!-- bower:js -->
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-animate/angular-animate.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/collide/collide.js"></script>
+    <script src="lib/ionic/release/js/ionic.js"></script>
+    <script src="lib/ionic/release/js/ionic-angular.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+
+        <!-- build:js scripts/scripts.js -->
+        <script src="scripts/config.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers.js"></script>
+        <script src="scripts/directives.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

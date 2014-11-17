@@ -1,4 +1,2 @@
-mobileCMS
-=========
-Hallo world
-angular + php mobile CMS
+
+follow from https://github.com/diegonetto/generator-ionic

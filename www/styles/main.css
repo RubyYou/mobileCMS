@@ -1,0 +1,29 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/macintosh\/Sites\/ionicProject\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000031;
+  }
+}
+
+map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/macintosh\/Sites\/ionicProject\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000036;
+  }
+}
+
+.scroll {
+  height: 100%;
+}

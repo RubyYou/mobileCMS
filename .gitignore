@@ -1,1 +1,5 @@
 */platforms
+/node_modules
+/plugins
+/app/lib
+/www/lib
