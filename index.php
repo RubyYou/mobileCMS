@@ -1,6 +1,7 @@
 <?php
-require './kern/LeeFramework.php';
-$updir='./';
+$updir='./leeframework/';
+require $updir.'kern/LeeFramework.php';
+
 lee::get_ini($updir);
 $p=$_GET['p'];
 $page=$_GET['page'];
@@ -14,7 +15,7 @@ $page=1;
 
 
 if ($p=='index'){
-    lee::template_load('index.html',$updir);
+    lee::template_load('index.html');
     
 }
 
